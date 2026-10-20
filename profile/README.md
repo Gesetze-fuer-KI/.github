@@ -29,10 +29,12 @@ Wie man den eigenen Assistenten verbindet, steht auf **[gesetze-fuer-ki.de](http
 ## So hängt es zusammen
 
 ```mermaid
-flowchart LR
-    A["gesetze-im-internet.de<br/>amtliche Texte"] -- jede Nacht --> B["gesetze<br/>Markdown, Historie in git"]
-    B -- stündlich --> C["gesetze-fuer-ki<br/>Suchindex, MCP-Server"]
-    C -- MCP --> D["Ihr KI-Assistent"]
+flowchart TB
+    A(["Amtliche Texte&nbsp;&nbsp;<br/>gesetze-im-internet.de&nbsp;&nbsp;&nbsp;"])
+    B["Repository gesetze&nbsp;&nbsp;<br/>Markdown mit Historie&nbsp;&nbsp;"]
+    C["Server gesetze-fuer-ki&nbsp;&nbsp;<br/>Suchindex und MCP&nbsp;&nbsp;"]
+    D(["Ihr KI-Assistent&nbsp;&nbsp;"])
+    A -->|jede Nacht| B -->|stündlich| C -->|MCP| D
 ```
 
 ## Unterstützen
