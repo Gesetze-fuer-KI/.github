@@ -7,7 +7,7 @@
 
 <h1 align="center"><a href="https://gesetze-fuer-ki.de">Gesetze für KI</a></h1>
 
-<p align="center"><b>Ihr KI-Assistent schlägt das aktuelle Bundesrecht nach. Kostenlos.</b></p>
+<p align="center"><b>Ihr KI-Assistent schlägt aktuelles Bundes- und Landesrecht nach. Kostenlos.</b></p>
 
 <p align="center">
   Alles zum Einrichten und Benutzen steht auf <b><a href="https://gesetze-fuer-ki.de">gesetze-fuer-ki.de</a></b>:<br>
@@ -26,11 +26,12 @@ https://gesetze-fuer-ki.de/mcp
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="ablauf-dunkel.svg">
-  <img alt="Ablauf: Die amtlichen Texte von gesetze-im-internet.de werden jede Nacht in das Repository gesetze übernommen, eine Markdown-Datei je Gesetz mit jeder Änderung als Commit. Der Server gesetze-fuer-ki holt sie stündlich, baut den Suchindex und stellt sie über MCP bereit. Ihr KI-Assistent schlägt darüber den Wortlaut nach." src="ablauf.svg" width="100%">
+  <img alt="Ablauf: Die amtlichen Texte von gesetze-im-internet.de werden jede Nacht in das Repository bundesrecht übernommen, eine Markdown-Datei je Gesetz mit jeder Änderung als Commit. Der Server gesetze-fuer-ki holt sie stündlich, baut den Suchindex und stellt sie über MCP bereit. Ihr KI-Assistent schlägt darüber den Wortlaut nach." src="ablauf.svg" width="100%">
 </picture>
 
 - **[gesetze-fuer-ki](https://github.com/Gesetze-fuer-KI/gesetze-fuer-ki)**: der Server und die Webseite. Funktionsweise, selbst betreiben und mitmachen stehen dort.
-- **[gesetze](https://github.com/Gesetze-fuer-KI/gesetze)**: alle Gesetze als Textdateien, jede Nacht aktualisiert, jede Änderung ein Commit.
+- **[bundesrecht](https://github.com/Gesetze-fuer-KI/bundesrecht)**: alle Gesetze und Verordnungen des Bundes als Textdateien, jede Nacht aktualisiert, jede Änderung ein Commit.
+- **landesrecht-…**: dasselbe für die Länder, direkt von den amtlichen Landesportalen: [Bayern](https://github.com/Gesetze-fuer-KI/landesrecht-by), [Brandenburg](https://github.com/Gesetze-fuer-KI/landesrecht-bb), [Nordrhein-Westfalen](https://github.com/Gesetze-fuer-KI/landesrecht-nw), [Sachsen](https://github.com/Gesetze-fuer-KI/landesrecht-sn). Die übrigen zwölf Länder lassen den automatischen Abruf nicht zu; warum, und wie Sie sich dafür einsetzen können, steht in ihrem Repository und unter [Daten und Grenzen](https://gesetze-fuer-ki.de/daten/#landesrecht).
 
 ---
 
