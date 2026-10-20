@@ -24,10 +24,11 @@ Wie man den eigenen Assistenten verbindet, steht auf **[gesetze-fuer-ki.de](http
 
 ## So hängt es zusammen
 
-```text
-gesetze-im-internet.de ──jede Nacht──▶ gesetze ──stündlich──▶ gesetze-fuer-ki ──▶ Ihr Assistent
-   (amtliche Texte)                    (Markdown,             (Suchindex,
-                                        Historie in git)       MCP-Server)
+```mermaid
+flowchart LR
+    A["gesetze-im-internet.de<br/><small>amtliche Texte</small>"] -- jede Nacht --> B["gesetze<br/><small>Markdown, Historie in git</small>"]
+    B -- stündlich --> C["gesetze-fuer-ki<br/><small>Suchindex, MCP-Server</small>"]
+    C -- MCP --> D["Ihr KI-Assistent"]
 ```
 
 ## Unterstützen
