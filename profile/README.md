@@ -7,6 +7,10 @@
 
 <h1 align="center"><a href="https://gesetze-fuer-ki.de">Gesetze für KI</a></h1>
 
+<p align="center">
+  <a href="https://liberapay.com/GesetzeFuerKI"><img alt="Über Liberapay unterstützen" src="https://img.shields.io/badge/Liberapay-unterst%C3%BCtzen-F6C915?logo=liberapay&logoColor=black"></a>
+</p>
+
 <p align="center"><b>Das aktuelle Bundesrecht für KI-Assistenten: kostenlos, ohne Anmeldung, ohne Werbung.</b></p>
 
 Gesetze für KI ist ein öffentlicher [MCP-Server](https://modelcontextprotocol.io) mit rund 6.100 Gesetzen und Verordnungen des Bundes, jede Nacht abgeglichen mit den amtlichen Texten auf [gesetze-im-internet.de](https://www.gesetze-im-internet.de). Claude, ChatGPT und andere Assistenten schlagen damit den Wortlaut nach, statt aus dem Gedächtnis zu zitieren, und antworten mit Paragraf, Stand und Link zur Quelle.
@@ -26,8 +30,8 @@ Wie man den eigenen Assistenten verbindet, steht auf **[gesetze-fuer-ki.de](http
 
 ```mermaid
 flowchart LR
-    A["gesetze-im-internet.de<br/><small>amtliche Texte</small>"] -- jede Nacht --> B["gesetze<br/><small>Markdown, Historie in git</small>"]
-    B -- stündlich --> C["gesetze-fuer-ki<br/><small>Suchindex, MCP-Server</small>"]
+    A["gesetze-im-internet.de<br/>amtliche Texte"] -- jede Nacht --> B["gesetze<br/>Markdown, Historie in git"]
+    B -- stündlich --> C["gesetze-fuer-ki<br/>Suchindex, MCP-Server"]
     C -- MCP --> D["Ihr KI-Assistent"]
 ```
 
