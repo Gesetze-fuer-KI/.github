@@ -19,10 +19,8 @@ Wie man den eigenen Assistenten verbindet, steht auf **[gesetze-fuer-ki.de](http
 
 ## Repositories
 
-| | |
-|---|---|
-| **[gesetze-fuer-ki](https://github.com/Gesetze-fuer-KI/gesetze-fuer-ki)** | Der MCP-Server, die Aufbereitung der Gesetze und die Webseite. |
-| **[gesetze](https://github.com/Gesetze-fuer-KI/gesetze)** | Das gesamte Bundesrecht als Markdown, eine Datei je Gesetz. Jede Nacht abgeglichen; jede Änderung ist ein Commit, den man Zeile für Zeile nachlesen kann. |
+- **[gesetze-fuer-ki](https://github.com/Gesetze-fuer-KI/gesetze-fuer-ki)**: der MCP-Server, die Aufbereitung der Gesetze und die Webseite.
+- **[gesetze](https://github.com/Gesetze-fuer-KI/gesetze)**: das gesamte Bundesrecht als Markdown, eine Datei je Gesetz. Jede Nacht abgeglichen; jede Änderung ist ein Commit, den man Zeile für Zeile nachlesen kann.
 
 ## So hängt es zusammen
 
