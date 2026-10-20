@@ -7,24 +7,20 @@
 
 <h1 align="center"><a href="https://gesetze-fuer-ki.de">Gesetze für KI</a></h1>
 
+<p align="center"><b>Ihr KI-Assistent schlägt das aktuelle Bundesrecht nach. Kostenlos.</b></p>
+
+<p align="center">
+  Alles zum Einrichten und Benutzen steht auf <b><a href="https://gesetze-fuer-ki.de">gesetze-fuer-ki.de</a></b>:<br>
+  <a href="https://gesetze-fuer-ki.de/verbinden/"><b>So verbinden Sie Ihren Assistenten</b></a>
+</p>
+
 <p align="center">
   <a href="https://liberapay.com/GesetzeFuerKI"><img alt="Über Liberapay unterstützen" src="https://img.shields.io/badge/Liberapay-unterst%C3%BCtzen-F6C915?logo=liberapay&logoColor=black"></a>
 </p>
 
-<p align="center"><b>Das aktuelle Bundesrecht für KI-Assistenten: kostenlos, ohne Anmeldung, ohne Werbung.</b></p>
-
-Gesetze für KI ist ein öffentlicher [MCP-Server](https://modelcontextprotocol.io) mit rund 6.100 Gesetzen und Verordnungen des Bundes, jede Nacht abgeglichen mit den amtlichen Texten auf [gesetze-im-internet.de](https://www.gesetze-im-internet.de). Claude, ChatGPT und andere Assistenten schlagen damit den Wortlaut nach, statt aus dem Gedächtnis zu zitieren, und antworten mit Paragraf, Stand und Link zur Quelle.
-
 ```text
 https://gesetze-fuer-ki.de/mcp
 ```
-
-Wie man den eigenen Assistenten verbindet, steht auf **[gesetze-fuer-ki.de](https://gesetze-fuer-ki.de/verbinden/)**.
-
-## Repositories
-
-- **[gesetze-fuer-ki](https://github.com/Gesetze-fuer-KI/gesetze-fuer-ki)**: der MCP-Server, die Aufbereitung der Gesetze und die Webseite.
-- **[gesetze](https://github.com/Gesetze-fuer-KI/gesetze)**: das gesamte Bundesrecht als Markdown, eine Datei je Gesetz. Jede Nacht abgeglichen; jede Änderung ist ein Commit, den man Zeile für Zeile nachlesen kann.
 
 ## So hängt es zusammen
 
@@ -33,12 +29,9 @@ Wie man den eigenen Assistenten verbindet, steht auf **[gesetze-fuer-ki.de](http
   <img alt="Ablauf: Die amtlichen Texte von gesetze-im-internet.de werden jede Nacht in das Repository gesetze übernommen, eine Markdown-Datei je Gesetz mit jeder Änderung als Commit. Der Server gesetze-fuer-ki holt sie stündlich, baut den Suchindex und stellt sie über MCP bereit. Ihr KI-Assistent schlägt darüber den Wortlaut nach." src="ablauf.svg" width="100%">
 </picture>
 
-## Unterstützen
-
-Der Dienst wird privat betrieben. Wer die Kosten für Server und Domain mittragen möchte, findet alles auf [gesetze-fuer-ki.de/unterstuetzen](https://gesetze-fuer-ki.de/unterstuetzen/) oder direkt auf [Liberapay](https://liberapay.com/GesetzeFuerKI). Ein Beitrag ist eine freiwillige Unterstützung, keine steuerlich absetzbare Spende.
-
-Fehler in einem Gesetz oder eine Suche, die nichts findet? Bitte als [Issue](https://github.com/Gesetze-fuer-KI/gesetze-fuer-ki/issues) melden.
+- **[gesetze-fuer-ki](https://github.com/Gesetze-fuer-KI/gesetze-fuer-ki)**: der Server und die Webseite. Funktionsweise, selbst betreiben und mitmachen stehen dort.
+- **[gesetze](https://github.com/Gesetze-fuer-KI/gesetze)**: alle Gesetze als Textdateien, jede Nacht aktualisiert, jede Änderung ein Commit.
 
 ---
 
-<sub>Keine Rechtsberatung: Der Dienst liefert Gesetzestexte; maßgeblich ist die amtliche Fassung. · [Impressum](https://gesetze-fuer-ki.de/impressum/) · [Datenschutz](https://gesetze-fuer-ki.de/datenschutz/)</sub>
+<sub>Keine Rechtsberatung: Der Dienst liefert Gesetzestexte; maßgeblich ist die amtliche Fassung. · [Unterstützen](https://gesetze-fuer-ki.de/unterstuetzen/) · [Impressum](https://gesetze-fuer-ki.de/impressum/) · [Datenschutz](https://gesetze-fuer-ki.de/datenschutz/)</sub>
