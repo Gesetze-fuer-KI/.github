@@ -5,7 +5,7 @@
   </picture>
 </p>
 
-<h1 align="center">Gesetze für KI</h1>
+<h1 align="center"><a href="https://gesetze-fuer-ki.de">Gesetze für KI</a></h1>
 
 <p align="center"><b>Das aktuelle Bundesrecht für KI-Assistenten: kostenlos, ohne Anmeldung, ohne Werbung.</b></p>
 
