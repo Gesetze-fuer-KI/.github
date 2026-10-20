@@ -28,14 +28,10 @@ Wie man den eigenen Assistenten verbindet, steht auf **[gesetze-fuer-ki.de](http
 
 ## So hängt es zusammen
 
-```mermaid
-flowchart TB
-    A(["Amtliche Texte&nbsp;&nbsp;<br/>gesetze-im-internet.de&nbsp;&nbsp;&nbsp;"])
-    B["Repository gesetze&nbsp;&nbsp;<br/>Markdown mit Historie&nbsp;&nbsp;"]
-    C["Server gesetze-fuer-ki&nbsp;&nbsp;<br/>Suchindex und MCP&nbsp;&nbsp;"]
-    D(["Ihr KI-Assistent&nbsp;&nbsp;"])
-    A -->|jede Nacht| B -->|stündlich| C -->|MCP| D
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="ablauf-dunkel.svg">
+  <img alt="Ablauf: Die amtlichen Texte von gesetze-im-internet.de werden jede Nacht in das Repository gesetze übernommen, eine Markdown-Datei je Gesetz mit jeder Änderung als Commit. Der Server gesetze-fuer-ki holt sie stündlich, baut den Suchindex und stellt sie über MCP bereit. Ihr KI-Assistent schlägt darüber den Wortlaut nach." src="ablauf.svg" width="100%">
+</picture>
 
 ## Unterstützen
 
