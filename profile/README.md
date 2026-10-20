@@ -31,28 +31,23 @@ https://gesetze-fuer-ki.de/mcp
 
 - **[gesetze-fuer-ki](https://github.com/Gesetze-fuer-KI/gesetze-fuer-ki)**: der Server und die Webseite. Funktionsweise, selbst betreiben und mitmachen stehen dort.
 - **[bundesrecht](https://github.com/Gesetze-fuer-KI/bundesrecht)**: alle Gesetze und Verordnungen des Bundes als Textdateien, jede Nacht aktualisiert, jede Änderung ein Commit.
-- **landesrecht-…**: dasselbe für die Länder, direkt von den amtlichen Landesportalen, ein Repository je Land. Nur vier Länder lassen den automatischen Abruf zu; bei den anderen steht im Repository, woran es scheitert, mit einer Vorlage, um sich beim Land dafür einzusetzen. Mehr unter [Daten und Grenzen](https://gesetze-fuer-ki.de/daten/#landesrecht).
+- **landesrecht-…**: dasselbe für die Länder, ein Repository je Land, direkt vom amtlichen Landesportal (siehe unten).
 
-| Land | | Abruf | Repository |
-|---|---|---|---|
-| Baden-Württemberg | ❌ | Portal sperrt automatische Abrufe (robots.txt) | [landesrecht-bw](https://github.com/Gesetze-fuer-KI/landesrecht-bw) |
-| Bayern | ✅ | Nutzungshinweise erlauben die Weiterverwendung | [landesrecht-by](https://github.com/Gesetze-fuer-KI/landesrecht-by) |
-| Berlin | ❌ | Portal sperrt automatische Abrufe (robots.txt) | [landesrecht-be](https://github.com/Gesetze-fuer-KI/landesrecht-be) |
-| Brandenburg | ⏳ | erlaubt, erster Abgleich läuft (alle 20 Sekunden ein Abruf) | [landesrecht-bb](https://github.com/Gesetze-fuer-KI/landesrecht-bb) |
-| Bremen | ❌ | Portal sperrt Abrufe aus Rechenzentren | [landesrecht-hb](https://github.com/Gesetze-fuer-KI/landesrecht-hb) |
-| Hamburg | ❌ | Portal sperrt automatische Abrufe (robots.txt) | [landesrecht-hh](https://github.com/Gesetze-fuer-KI/landesrecht-hh) |
-| Hessen | ❌ | Portal sperrt automatische Abrufe (robots.txt) | [landesrecht-he](https://github.com/Gesetze-fuer-KI/landesrecht-he) |
-| Mecklenburg-Vorpommern | ❌ | Portal sperrt automatische Abrufe (robots.txt) | [landesrecht-mv](https://github.com/Gesetze-fuer-KI/landesrecht-mv) |
-| Niedersachsen | ❌ | Betreiber behält sich die Nutzung der Texte vor | [landesrecht-ni](https://github.com/Gesetze-fuer-KI/landesrecht-ni) |
-| Nordrhein-Westfalen | ✅ | kein Verbot | [landesrecht-nw](https://github.com/Gesetze-fuer-KI/landesrecht-nw) |
-| Rheinland-Pfalz | ❌ | Portal sperrt automatische Abrufe (robots.txt) | [landesrecht-rp](https://github.com/Gesetze-fuer-KI/landesrecht-rp) |
-| Saarland | ❌ | Portal sperrt automatische Abrufe (robots.txt) | [landesrecht-sl](https://github.com/Gesetze-fuer-KI/landesrecht-sl) |
-| Sachsen | ✅ | kein Verbot | [landesrecht-sn](https://github.com/Gesetze-fuer-KI/landesrecht-sn) |
-| Sachsen-Anhalt | ❌ | Portal sperrt automatische Abrufe (robots.txt) | [landesrecht-st](https://github.com/Gesetze-fuer-KI/landesrecht-st) |
-| Schleswig-Holstein | ❌ | Portal sperrt automatische Abrufe (robots.txt) | [landesrecht-sh](https://github.com/Gesetze-fuer-KI/landesrecht-sh) |
-| Thüringen | ❌ | Portal sperrt automatische Abrufe (robots.txt) | [landesrecht-th](https://github.com/Gesetze-fuer-KI/landesrecht-th) |
+## Landesrecht
 
-✅ enthalten · ⏳ im Aufbau · ❌ nicht erlaubt
+Übernommen wird nur, was das Portal eines Landes erlaubt.
+
+✅ **Enthalten:** [Bayern](https://github.com/Gesetze-fuer-KI/landesrecht-by) · [Nordrhein-Westfalen](https://github.com/Gesetze-fuer-KI/landesrecht-nw) · [Sachsen](https://github.com/Gesetze-fuer-KI/landesrecht-sn)
+
+⏳ **Im Aufbau:** [Brandenburg](https://github.com/Gesetze-fuer-KI/landesrecht-bb): erlaubt, aber nur ein Abruf alle 20 Sekunden; der erste Abgleich dauert zwei Nächte.
+
+❌ **Nicht erlaubt:**
+
+- Das Portal sperrt automatische Abrufe in seiner robots.txt: [Baden-Württemberg](https://github.com/Gesetze-fuer-KI/landesrecht-bw) · [Berlin](https://github.com/Gesetze-fuer-KI/landesrecht-be) · [Hamburg](https://github.com/Gesetze-fuer-KI/landesrecht-hh) · [Hessen](https://github.com/Gesetze-fuer-KI/landesrecht-he) · [Mecklenburg-Vorpommern](https://github.com/Gesetze-fuer-KI/landesrecht-mv) · [Rheinland-Pfalz](https://github.com/Gesetze-fuer-KI/landesrecht-rp) · [Saarland](https://github.com/Gesetze-fuer-KI/landesrecht-sl) · [Sachsen-Anhalt](https://github.com/Gesetze-fuer-KI/landesrecht-st) · [Schleswig-Holstein](https://github.com/Gesetze-fuer-KI/landesrecht-sh) · [Thüringen](https://github.com/Gesetze-fuer-KI/landesrecht-th)
+- Der Betreiber behält sich die Nutzung der Texte vor: [Niedersachsen](https://github.com/Gesetze-fuer-KI/landesrecht-ni)
+- Das Portal sperrt Abrufe aus Rechenzentren: [Bremen](https://github.com/Gesetze-fuer-KI/landesrecht-hb)
+
+Im Repository jedes fehlenden Landes steht, woran es genau scheitert, mit einer Vorlage, um sich beim Land für freien Zugang einzusetzen. Mehr unter [Daten und Grenzen](https://gesetze-fuer-ki.de/daten/#landesrecht).
 
 ---
 
